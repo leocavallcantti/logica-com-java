@@ -19,6 +19,8 @@ public class SomaSimples {
 
         System.out.println("Resultado: " + soma );
 
+        sc.close();
+
     }
 }
     // Exercicio beecrowd

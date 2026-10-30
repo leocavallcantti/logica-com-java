@@ -11,17 +11,18 @@ import java.util.Scanner;
 
 public class MediaAluno1 {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         System.out.print("Digite o Nome do Aluno: ");
-        var NomeAluno = sc.nextLine();
-        System.out.print("Digite a Primeira Nota do" + NomeAluno + " : ");
-        var Nota1 = sc.nextDouble();
-        System.out.print("Digite a Segunda nota do" + NomeAluno + " : ");
-        var Nota2 = sc.nextDouble();
+        var nomeAluno = sc.nextLine();
+        System.out.print("Digite a Primeira Nota do " + nomeAluno + ":");
+        var nota1 = sc.nextDouble();
+        System.out.print("Digite a Segunda nota do " + nomeAluno + ":");
+        var nota2 = sc.nextDouble();
 
-        var media = ( Nota1 + Nota2 ) / 2;
+        var media = ( nota1 + nota2 ) / 2;
 
-        System.out.println("A media do Aluno " + NomeAluno + "eh: " + media );
+        System.out.println("A media do Aluno " + nomeAluno + " eh: " + String.format("%,.1f", media) );
 
         sc.close();
 

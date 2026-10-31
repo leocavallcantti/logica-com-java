@@ -29,3 +29,4 @@ public class MediaAluno2 {
         sc.close();
     }
 }
+        // Exercicio beecrowd

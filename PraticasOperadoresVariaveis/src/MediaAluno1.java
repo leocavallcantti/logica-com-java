@@ -28,3 +28,5 @@ public class MediaAluno1 {
 
     }
 }
+
+        // Exercicio beecrowd

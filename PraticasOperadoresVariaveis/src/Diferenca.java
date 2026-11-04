@@ -11,15 +11,15 @@ public class Diferenca {
 
         System.out.println("Primeira Soma");
         System.out.println("==============================");
-        System.out.print("Informe o Primeiro Numero: ");
+        System.out.print("Valor A: ");
         var number1 = sc.nextInt();
-        System.out.print("Informe o Segundo Numero: ");
+        System.out.print("Valor B: ");
         var number2 = sc.nextInt();
         System.out.println("==============================");
         System.out.println("Segunda Soma");
-        System.out.print("Informe o Terceiro Numero: ");
+        System.out.print("Valor C: ");
         var number3 = sc.nextInt();
-        System.out.print("Informe o Quarto Numero: ");
+        System.out.print("Valor D: ");
         var number4 = sc.nextInt();
         System.out.println("==============================");
 

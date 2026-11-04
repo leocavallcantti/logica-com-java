@@ -30,7 +30,7 @@ public class Diferenca {
 
         System.out.println("Resultado Soma 1: " + sum1 );
         System.out.println("Resultado Soma 2: " + sum2 );
-        System.out.println("Diferença entre as somas: " + dif);
+        System.out.println("Diferença entre eles eh: " + dif);
 
 
     }

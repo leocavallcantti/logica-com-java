@@ -19,7 +19,7 @@ import java.util.Scanner;
             var valor3 = sc.nextInt();
             System.out.print("Informe o Segundo Número: ");
             var valor4 = sc.nextInt();
-            var soma2 = valor3 + valor4;
+            var soma2 = valor3 - valor4;
             System.out.println("============================");
 
             // Multiplicação - Responsável por retornar multiplicação feita entre dois valores.
@@ -28,7 +28,7 @@ import java.util.Scanner;
             var valor5 = sc.nextInt();
             System.out.print("Informe o Segundo Número: ");
             var valor6 = sc.nextInt();
-            var soma3 = valor5 + valor6;
+            var soma3 = valor5 * valor6;
             System.out.println("============================");
 
             /* Divisão - Responsável por retornar a divisão feita entre dois valores.
@@ -38,7 +38,7 @@ import java.util.Scanner;
             var valor7 = sc.nextInt();
             System.out.print("Informe o Segundo Número: ");
             var valor8 = sc.nextInt();
-            var soma4 = valor5 + valor6;
+            var soma4 = valor5 / valor6;
             System.out.println("============================");
 
             /* Resto da Divisão - Responsável por retornar o resto da divisão feita entre dois valores.
@@ -49,7 +49,7 @@ import java.util.Scanner;
             var valor9 = sc.nextInt();
             System.out.print("Informe o Segundo Número: ");
             var valor10 = sc.nextInt();
-            var soma5 = valor5 + valor6;
+            var soma5 = valor5 % valor6;
             System.out.println("============================");
 
             System.out.println("Resultado Adição: " + valor1 + " + " + valor2 + " " + " = " + soma1 );

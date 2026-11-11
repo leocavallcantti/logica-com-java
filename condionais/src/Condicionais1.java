@@ -12,5 +12,7 @@ public class Condicionais1 {
         } else {
             System.out.println("Você é menor de Idade !!!");
         }
+
+        sc.close();;
     }
 }

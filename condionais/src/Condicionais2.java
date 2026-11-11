@@ -15,5 +15,7 @@ public class Condicionais2 {
         } else {
             System.out.println("15% de R$ " + salario + " eh: R$ " + String.format("%.2f",quinzePorcento));
         }
+
+        sc.close();
     }
 }

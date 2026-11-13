@@ -1,3 +1,5 @@
+package academy.devdojo.variaveis.tiposprimitivosevariaveis;
+
 public class TipoPrimitivos {
     public static void main(String[] args) {
 

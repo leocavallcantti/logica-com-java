@@ -1,3 +1,5 @@
+package academy.devdojo.variaveis.exerciciostiposprimitivosevariaveis;
+
 /* Escreva um programa que leia o número de um funcionário, seu número de horas trabalhadas
 o valor que recebe por hora e calcula o salário desse funcionário. A seguir, mostre o número
 e o salário do funcionário, com duas casas decimais. O arquivo de entrada contém 2 números
@@ -8,7 +10,7 @@ branco antes e depois da igualdade. No caso do salário, também deve haver um e
 
 import java.util.Scanner;
 
-public class CalculadoraSalario {
+public class CalculadoraSalario1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -28,3 +30,4 @@ public class CalculadoraSalario {
 
     }
 }
+

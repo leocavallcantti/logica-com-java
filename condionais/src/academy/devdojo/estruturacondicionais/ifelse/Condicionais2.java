@@ -1,3 +1,5 @@
+package academy.devdojo.estruturacondicionais.ifelse;
+
 import java.util.Scanner;
 
 public class Condicionais2 {

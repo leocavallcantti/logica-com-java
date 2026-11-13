@@ -1,3 +1,5 @@
+package academy.devdojo.variaveis.tiposprimitivosevariaveis;
+
 public class PrimeiroPrograma {
     public static void main(String[] args) {
 

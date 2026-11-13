@@ -1,3 +1,5 @@
+package academy.devdojo.variaveis.exerciciostiposprimitivosevariaveis;
+
 /* Leia quatro valores inteiros A, B, C e D. A seguir, calcule e mostre a diferença do
 produto de A e B pelo produto de C e D segundo a fórmula: DIFERENCA = (A * B - C * D).
 O arquivo de entrada contém 4 valores inteiros. Imprima a mensagem DIFERENCA, conforme
@@ -36,4 +38,4 @@ public class Diferenca {
     }
 }
 
-        // Exercicio beecrowd
+// Exercicio beecrowd

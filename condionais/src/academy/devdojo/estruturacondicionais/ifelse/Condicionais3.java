@@ -1,6 +1,8 @@
+package academy.devdojo.estruturacondicionais.ifelse;
+
 import java.util.Scanner;
 
-public class Condicionas3 {
+public class Condicionais3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

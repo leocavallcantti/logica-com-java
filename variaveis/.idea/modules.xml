@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/OperadoresVariaveis.iml" filepath="$PROJECT_DIR$/OperadoresVariaveis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/variaveis.iml" filepath="$PROJECT_DIR$/variaveis.iml" />
     </modules>
   </component>
 </project>

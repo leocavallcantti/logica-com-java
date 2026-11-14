@@ -1,5 +1,3 @@
-package academy.devdojo.variaveis.exerciciostiposprimitivosevariaveis;
-
 /* Leia quatro valores inteiros A, B, C e D. A seguir, calcule e mostre a diferença do
 produto de A e B pelo produto de C e D segundo a fórmula: DIFERENCA = (A * B - C * D).
 O arquivo de entrada contém 4 valores inteiros. Imprima a mensagem DIFERENCA, conforme
@@ -9,7 +7,7 @@ import java.util.Scanner;
 
 public class Diferenca {
     public static void main() {
-        Scanner sc = new Scanner (System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Primeira Soma");
         System.out.println("==============================");
@@ -30,8 +28,8 @@ public class Diferenca {
         var sum2 = number3 * number4;
 
 
-        System.out.println("Resultado Soma 1: " + sum1 );
-        System.out.println("Resultado Soma 2: " + sum2 );
+        System.out.println("Resultado Soma 1: " + sum1);
+        System.out.println("Resultado Soma 2: " + sum2);
         System.out.println("Diferença entre eles eh: " + dif);
 
 

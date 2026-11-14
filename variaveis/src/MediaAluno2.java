@@ -1,5 +1,3 @@
-package academy.devdojo.variaveis.exerciciostiposprimitivosevariaveis;
-
 /* Leia 3 valores, no caso, variáveis A, B e C, que são as três notas de um aluno. A seguir calcule
 a média do aluno, sabendo que a nota A tem peso 2, a nota B tem peso 3 e a nota C tem peso 5. Considere
 que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal. O arquivo de entrada contém 3 valores
@@ -19,13 +17,13 @@ public class MediaAluno2 {
         var nota1 = sc.nextDouble();
         System.out.print("Digite a Segunda nota do " + nomeAluno + ":");
         var nota2 = sc.nextDouble();
-        System.out.print("Digite a Terceira nota do " +nomeAluno + ":");
+        System.out.print("Digite a Terceira nota do " + nomeAluno + ":");
         var nota3 = sc.nextDouble();
         var espaco = sc.nextLine();
 
-        var media = ( nota1 * 2 + nota2 * 3 + nota3 * 5 ) / 10;
+        var media = (nota1 * 2 + nota2 * 3 + nota3 * 5) / 10;
 
-        System.out.println("A media do Aluno " + nomeAluno + " eh: " + String.format("%,.1f", media) );
+        System.out.println("A media do Aluno " + nomeAluno + " eh: " + String.format("%,.1f", media));
 
         sc.close();
     }

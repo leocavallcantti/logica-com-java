@@ -12,11 +12,13 @@ public class ImparOuPar {
         System.out.print("Informe um Numero: ");
         var numero = sc.nextInt();
 
+        /* O operador '%' (módulo) retorna o resto da divisão por 2. Se o resto for 0, 'result'
+        guarda true (verdadeiro); caso contrário, guarda false (falso). */
         var result = numero % 2 == 0;
 
-        if (result) {
+        if (result) { // Este trecho só é executado se 'result' for verdadeiro (true), ou seja, resto igual a 0
             System.out.println(numero + " eh Par");
-        } else {
+        } else { // Este trecho será executado se 'result' for falso (false), ou seja, resto diferente de 0
             System.out.println(numero + " eh Impar");
         }
         sc.close();

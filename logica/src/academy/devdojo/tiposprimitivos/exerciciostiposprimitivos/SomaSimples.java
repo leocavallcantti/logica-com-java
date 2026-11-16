@@ -1,4 +1,4 @@
-package academy.devdojo.tiposprimitivos;
+package academy.devdojo.tiposprimitivos.exerciciostiposprimitivos;
 
 /* Leia dois valores inteiros, no caso para variáveis A e B. A seguir, calcule a soma entre elas
 e atribua à variável SOMA. A seguir escrever o valo desta variável. Entrada O arquivo de entrada

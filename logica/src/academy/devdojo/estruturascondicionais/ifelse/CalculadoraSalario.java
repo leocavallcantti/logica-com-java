@@ -9,13 +9,12 @@ public class CalculadoraSalario {
         System.out.print("Digite seu Salario: R$ ");
         var salario = sc.nextDouble();
 
-        var trintaPorCento = salario * 0.30;
-        var quinzePorcento = salario * 0.10;
-
-        if ( salario > 4500 ){
-            System.out.println("30% de R$ " + salario + " eh: R$ " + String.format("%.2f",trintaPorCento));
-        } else {
-            System.out.println("15% de R$ " + salario + " eh: R$ " + String.format("%.2f",quinzePorcento));
+        if ( salario > 4500 ){ // Este trecho só é executado se o salário for maior que 4500.01
+            var resultado = salario * 0.30;
+            System.out.println("30% de R$ " + salario + " eh: R$ " + String.format("%.2f",resultado));
+        } else { // Este trecho será executado se o salário for menor ou igual a 4500.00
+            var resultado = salario * 0.15;
+            System.out.println("15% de R$ " + salario + " eh: R$ " + String.format("%.2f",resultado));
         }
 
         sc.close();

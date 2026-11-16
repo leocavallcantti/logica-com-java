@@ -15,8 +15,8 @@ public class OperadoresArtimeticos {
         var soma1 = valor1 + valor2;
         System.out.println("============================");
 
-            /* Subtração - Responsável por retornar subtração feita entre dois valores.
-            Para chegar no resultado, o valora esquerda é subtraído pelo valor a direita. */
+        /* Subtração - Responsável por retornar subtração feita entre dois valores.
+        Para chegar no resultado, o valora esquerda é subtraído pelo valor a direita. */
 
         System.out.print("Informe o Primeiro número para Subtração: ");
         var valor3 = sc.nextInt();
@@ -34,8 +34,8 @@ public class OperadoresArtimeticos {
         var soma3 = valor5 * valor6;
         System.out.println("============================");
 
-            /* Divisão - Responsável por retornar a divisão feita entre dois valores.
-            Para chegar no resultado o valor a esquerda é dividido pelo valor a direita. */
+        /* Divisão - Responsável por retornar a divisão feita entre dois valores.
+        Para chegar no resultado o valor a esquerda é dividido pelo valor a direita. */
 
         System.out.print("Informe o Primeiro Número para Divisão: ");
         var valor7 = sc.nextInt();
@@ -44,9 +44,9 @@ public class OperadoresArtimeticos {
         var soma4 = valor5 / valor6;
         System.out.println("============================");
 
-            /* Resto da Divisão - Responsável por retornar o resto da divisão feita entre dois valores.
-            Para chegar no resultado, o valor da esquerda é dividido pelo valor a direita, e o resto
-            da divisão realizada vem como retorno. */
+        /* Resto da Divisão - Responsável por retornar o resto da divisão feita entre dois valores.
+        Para chegar no resultado, o valor da esquerda é dividido pelo valor a direita, e o resto
+        da divisão realizada vem como retorno. */
 
         System.out.print("Informe o Primeiro número Para o resto da divisão: ");
         var valor9 = sc.nextInt();

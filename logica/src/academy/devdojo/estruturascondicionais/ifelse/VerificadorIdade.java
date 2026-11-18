@@ -9,7 +9,7 @@ public class VerificadorIdade {
         System.out.print("Digite sua Idade: ");
         var idade = sc.nextInt();
 
-        if ( idade >= 18 ) { //  Este trecho só é executado se a idade for maior ou igual a 18 anos
+        if ( idade >= 18 ) { // Este trecho só é executado se a idade for maior ou igual a 18 anos
             System.out.println("Você é maior de Idade !!!");
         } else { // Este trecho só é executado se a idade for menor que 18 anos
             System.out.println("Você é menor de Idade !!!");

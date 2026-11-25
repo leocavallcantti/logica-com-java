@@ -16,15 +16,17 @@ public class DeterminacaoTemporada {
         System.out.print("Digite o Numero do Mês: ");
         var mes = sc.nextInt();
 
-
-        if ( mes == 1 || mes == 2 || mes == 12 ) {
+        if ( mes < 1 || mes > 12 ) {
+            System.out.println("Mês inválido. Por favor, insira um valor entre 1 e 12.");
+        } else if ( mes == 1 || mes == 2 || mes == 12 ) {
             System.out.println("Verão: 1 - Janeiro, 2 - Fevereiro e 12 - Dezembro.");
-        } else if ( mes == 3 || mes == 4 || mes == 5 ) {
+        } else if ( mes >= 3 && mes <= 5 ) {
             System.out.println("Outono : 3 - Março, 4 - Abril e 5 - Maio.");
-        } else if ( mes == 6 || mes == 7 || 8 == mes){
+        } else if ( mes >= 6 && mes <= 8 ) {
             System.out.println("Inverno: 6 - Junho, 7 - Julho e 8 - Agosto.");
         } else {
             System.out.println("Primavera: 9 - Setembro, 10 - Outubro e 11 - Novembro.");
         }
+       sc.close();
     }
 }
